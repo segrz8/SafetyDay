@@ -1,0 +1,73 @@
+// @import './_variables.scss';
+
+.Menu {
+    width: 100%;
+    height: 100%;
+    background-color: #4B4B4B;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 2;
+    transition: .2s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media(min-width: 1024px) {
+        width: 100vw;
+        height: 150px;
+        // background-color: rgba($color: #000000, $alpha: .45);
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        padding: 0 20px 0 400px;
+        color: white;
+    }
+
+    &--active {
+        right: 0;
+    }
+
+    &__list {
+        ul {
+            list-style: none;
+            margin-bottom: 0;
+
+            li {
+                text-align: center;
+                line-height: 2em;
+                text-transform: uppercase;
+
+                @media(min-width: 1024px) {
+                    display: inline-block;
+                    padding-right: 1em;
+                }
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    transition: .2s;
+
+                    @media(min-width: 1024px) {
+                        // color: white;
+
+                        &:hover {
+                            // color: rgb(179, 179, 179);
+                            // color: $primary-color;
+                            // border-bottom: $primary-color solid 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &--afterScroll {
+        @media(min-width: 1024px) {
+            background-color: white;
+            height: 90px;
+        }
+    }
+}

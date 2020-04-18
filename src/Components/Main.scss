@@ -1,0 +1,50 @@
+.Main {
+    // position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+    img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        opacity: .25;
+    }
+
+    &__logo {
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+
+    &__txtContainer {
+        position: absolute;
+        top: 25%;
+        padding: 15px;
+
+        p {
+            font-size: 1.4em;
+            color: #585858;
+            font-weight: 700;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            font-weight: 900;
+            margin: 10px 0 25px;
+        }
+    }
+
+    &__btnOffer {
+        a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            font-weight: 700;
+            background-color: #F1FF72;
+            border: 3px solid #E82828;
+            padding: 5px 25px;
+            border-radius: 8px;
+            font-size: 1.2em;
+        }
+    }
+}
