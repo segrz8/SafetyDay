@@ -1,0 +1,36 @@
+.Footer {
+    background-color: #4B4B4B;
+    color: white;
+    padding: 40px 0 0;
+
+    h1 {
+        font-size: 1.7em;
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+
+    p {
+        line-height: 1.4em;
+        padding: 0 15px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    &__part {
+        margin-bottom: 20px;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+    &__copywright {
+        background-color: #fff;
+        color: #4B4B4B;
+        padding: 15px;
+        text-align: center;
+    }
+}
