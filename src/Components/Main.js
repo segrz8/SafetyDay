@@ -3,13 +3,14 @@ import './Main.scss';
 import { Link } from 'react-router-dom';
 
 import img1 from '../Img/exit.jpg'
+import img1S from '../Img/exit.jpg'
 
 function Main() {
     return (
         <div className="Main">
             <picture>
                 <source media="(min-width: 461px)" srcSet={img1} />
-                <img src={img1} className="d-block w-100" alt="..." />
+                <img src={img1S} alt="..." />
             </picture>
             <h3 className="Main__logo">Safety Day</h3>
             <div className="Main__txtContainer">

@@ -1,4 +1,4 @@
-.About {
+.Offer {
     &__title {
         position: absolute;
         top: 20px;
@@ -14,7 +14,21 @@
         line-height: 1.3;
 
         p {
-            margin-bottom: 15px;
+            margin-bottom: 40px;
         }
+
+        ul {
+            margin-bottom: 40px;
+
+            li {
+                margin: 0 20px;
+            }
+        }
+    }
+
+    &__listTitle {
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 1em;
     }
 }
