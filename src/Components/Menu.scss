@@ -15,9 +15,8 @@
 
     @media(min-width: 1024px) {
         width: 100vw;
-        height: 150px;
-        // background-color: rgba($color: #000000, $alpha: .45);
-        background-color: transparent;
+        height: 100px;
+        background-color: #4B4B4B;
         position: fixed;
         top: 0;
         right: 0;
@@ -49,6 +48,7 @@
                     color: white;
                     text-decoration: none;
                     transition: .2s;
+                    font-size: 1.2em;
 
                     @media(min-width: 1024px) {
                         // color: white;
@@ -64,10 +64,10 @@
         }
     }
 
-    &--afterScroll {
-        @media(min-width: 1024px) {
-            background-color: white;
-            height: 90px;
-        }
-    }
+    // &--afterScroll {
+    //     @media(min-width: 1024px) {
+    //         background-color: white;
+    //         height: 90px;
+    //     }
+    // }
 }

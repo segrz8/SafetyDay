@@ -3,15 +3,37 @@
     color: white;
     padding: 40px 0 0;
 
+    &__flexContainer {
+        @media(min-width: 1024px) {
+            padding: 0 80px;
+            display: flex;
+        }
+    }
+
+    &__flexChild {
+        @media(min-width: 1024px) {
+            flex-basis: 50%;
+            text-align: center;
+        }
+    }
+
     h1 {
         font-size: 1.7em;
         margin-bottom: 20px;
         padding: 0 15px;
+
+        @media(min-width: 1024px) {
+            padding: 0;
+        }
     }
 
     p {
         line-height: 1.4em;
         padding: 0 15px;
+
+        @media(min-width: 1024px) {
+            padding: 0;
+        }
     }
 
     a {
@@ -26,6 +48,11 @@
     .bold {
         font-weight: 700;
         padding-bottom: 20px;
+
+        @media(min-width: 1024px) {
+            text-align: center;
+            padding-top: 20px;
+        }
     }
 
     &__copywright {
