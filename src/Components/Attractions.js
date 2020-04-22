@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 function Attractions() {
     return (
-        <div>
+        <div className="Attractions">
             <h1 className="Attractions__title">Atrakcje BHP</h1>
             <section className="Attractions__items">
                 <div className="Attractions__item">

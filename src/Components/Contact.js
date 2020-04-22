@@ -1,11 +1,12 @@
 import React from 'react'
 import './Contact.scss';
 
-import img1 from '../Img/Safety day akcja ratownicza i rozcinanie pojazdu.jpg'
+import img7 from '../Img/7.jpg'
+import img7S from '../Img/7S.jpg'
 
 function Contact() {
     return (
-        <div>
+        <div className="Contact">
             <h1 className="Contact__title">Kontakt</h1>
             <div className="Contact__txt">
                 <div className="Contact__part">
@@ -26,8 +27,8 @@ function Contact() {
             </div>
             <div className="Contact__img">
                 <picture>
-                    <source media="(min-width: 461px)" srcSet={img1} />
-                    <img src={img1} className="thumbnail" alt="bus" />
+                    <source media="(min-width: 461px)" srcSet={img7} />
+                    <img src={img7S} alt="..." />
                 </picture>
             </div>
         </div>

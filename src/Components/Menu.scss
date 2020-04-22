@@ -1,5 +1,3 @@
-// @import './_variables.scss';
-
 .Menu {
     width: 100%;
     height: 100%;
@@ -21,7 +19,7 @@
         top: 0;
         right: 0;
         z-index: 2;
-        padding: 0 20px 0 400px;
+        // padding: 0 20px 0 400px;
         color: white;
     }
 
@@ -30,6 +28,11 @@
     }
 
     &__list {
+        @media(min-width: 1024px) {
+            position: absolute;
+            right: 80px;
+        }
+
         ul {
             list-style: none;
             margin-bottom: 0;
@@ -51,23 +54,12 @@
                     font-size: 1.2em;
 
                     @media(min-width: 1024px) {
-                        // color: white;
-
                         &:hover {
-                            // color: rgb(179, 179, 179);
-                            // color: $primary-color;
-                            // border-bottom: $primary-color solid 2px;
+                            color: rgb(189, 189, 189);
                         }
                     }
                 }
             }
         }
     }
-
-    // &--afterScroll {
-    //     @media(min-width: 1024px) {
-    //         background-color: white;
-    //         height: 90px;
-    //     }
-    // }
 }

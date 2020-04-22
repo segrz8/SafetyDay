@@ -2,37 +2,37 @@ import React from 'react'
 import './Gallery.scss';
 import Footer from './Footer'
 
-import img1 from '../Img/Dzień bezpieczeństwa na magazynie.jpg'
-import img2 from '../Img/Dzień bezpieczeństwa wózki widłowe.jpg'
-import img3 from '../Img/Pierwsza pomoc poszkodowanym.jpg'
-import img4 from '../Img/Pierwsza pomoc stanowisko wypadku.jpg'
-import img5 from '../Img/Resuscytacja BHP.jpg'
-import img6 from '../Img/Safety day  gaszenie pojazdu.jpg'
-import img7 from '../Img/Safety day akcja ratownicza i rozcinanie pojazdu.jpg'
-import img8 from '../Img/Safety day pierwsza pomoc na miejscu wypdku.jpg'
-import img9 from '../Img/Safety day symulator zderzenia i dachowania.jpg'
-import img10 from '../Img/Safety day symulator zderzenia i refleksomierz.jpg'
-import img11 from '../Img/Safety day symulatory dachowania.jpg'
-import img12 from '../Img/Safety day wyciaganie poszkodowanego.jpg'
-import img13 from '../Img/Safety day zadymione pomieszczenie.jpg'
-import img14 from '../Img/Safety day.jpg'
-import img15 from '../Img/Gaszenie pożaru safety day.jpg'
+import img1 from '../Img/1.jpg'
+import img2 from '../Img/2.jpg'
+import img3 from '../Img/3.jpg'
+import img4 from '../Img/4.jpg'
+import img5 from '../Img/5.jpg'
+import img6 from '../Img/6.jpg'
+import img7 from '../Img/7.jpg'
+import img8 from '../Img/8.jpg'
+import img9 from '../Img/9.jpg'
+import img10 from '../Img/10.jpg'
+import img11 from '../Img/11.jpg'
+import img12 from '../Img/12.jpg'
+import img13 from '../Img/13.jpg'
+import img14 from '../Img/14.jpg'
+import img15 from '../Img/15.jpg'
 
-import img1S from '../Img/Dzień bezpieczeństwa na magazynieS.jpg'
-import img2S from '../Img/Dzień bezpieczeństwa wózki widłoweS.jpg'
-import img3S from '../Img/Pierwsza pomoc poszkodowanymS.jpg'
-import img4S from '../Img/Pierwsza pomoc stanowisko wypadkuS.jpg'
-import img5S from '../Img/Resuscytacja BHPS.jpg'
-import img6S from '../Img/Safety day  gaszenie pojazduS.jpg'
-import img7S from '../Img/Safety day akcja ratownicza i rozcinanie pojazduS.jpg'
-import img8S from '../Img/Safety day pierwsza pomoc na miejscu wypdkuS.jpg'
-import img9S from '../Img/Safety day symulator zderzenia i dachowaniaS.jpg'
-import img10S from '../Img/Safety day symulator zderzenia i refleksomierzS.jpg'
-import img11S from '../Img/Safety day symulatory dachowaniaS.jpg'
-import img12S from '../Img/Safety day wyciaganie poszkodowanegoS.jpg'
-import img13S from '../Img/Safety day zadymione pomieszczenieS.jpg'
-import img14S from '../Img/Safety dayS.jpg'
-import img15S from '../Img/Gaszenie pożaru safety dayS.jpg'
+import img1S from '../Img/1S.jpg'
+import img2S from '../Img/2S.jpg'
+import img3S from '../Img/3S.jpg'
+import img4S from '../Img/4S.jpg'
+import img5S from '../Img/5S.jpg'
+import img6S from '../Img/6S.jpg'
+import img7S from '../Img/7S.jpg'
+import img8S from '../Img/8S.jpg'
+import img9S from '../Img/9S.jpg'
+import img10S from '../Img/10S.jpg'
+import img11S from '../Img/11S.jpg'
+import img12S from '../Img/12S.jpg'
+import img13S from '../Img/13S.jpg'
+import img14S from '../Img/14S.jpg'
+import img15S from '../Img/15S.jpg'
 
 const imgSet = [
     { id: 0, path: img1, pathS: img1S, },
@@ -65,13 +65,15 @@ const photos = imgSet.map(item => {
 
 function Gallery() {
     return (
-        <div className="Gallery">
-            <h1 className="Gallery__title">Galeria</h1>
-            <section className="Gallery__imgs">
-                {photos}
-            </section>
+        <>
+            <div className="Gallery">
+                <h1 className="Gallery__title">Galeria</h1>
+                <section className="Gallery__imgs">
+                    {photos}
+                </section>
+            </div>
             <Footer />
-        </div>
+        </>
     )
 }
 

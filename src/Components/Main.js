@@ -3,7 +3,7 @@ import './Main.scss';
 import { Link } from 'react-router-dom';
 
 import img1 from '../Img/exit.jpg'
-import img1S from '../Img/exit.jpg'
+import img1S from '../Img/exitS.jpg'
 
 function Main() {
     return (
