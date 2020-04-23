@@ -24,7 +24,7 @@ function Footer() {
                 </div>
             </div>
             <div className="Footer__part bold">
-                <p>Zaufaj nam - stwórzmy wyjątkowy dzień bezpieczeństwa w twojej firmie!</p>
+                <p>Zaufaj nam - stworzymy wyjątkowy dzień bezpieczeństwa w twojej firmie!</p>
             </div>
             <div className="Footer__copywright">
                 <p>Copyright © 2020 Drivemat - wszelkie prawa zastrzeżone</p>

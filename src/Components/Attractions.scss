@@ -1,6 +1,10 @@
 .Attractions {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
     @media(min-width: 1024px) {
-        margin-top: 180px;
+        margin-top: 140px;
     }
 
     &__title {
@@ -13,9 +17,8 @@
         font-weight: 700;
 
         @media(min-width: 1024px) {
-            top: 120px;
-            left: 80px;
-            font-size: 1.8em;
+            position: static;
+            margin: 0 80px;
         }
     }
 
@@ -23,7 +26,7 @@
         margin: 120px 0 40px;
 
         @media(min-width: 1024px) {
-            margin: 220px 0 40px;
+            margin: 100px 0 40px;
         }
     }
 

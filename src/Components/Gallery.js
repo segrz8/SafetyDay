@@ -2,7 +2,7 @@ import React from 'react'
 import './Gallery.scss';
 import Footer from './Footer'
 
-import img1 from '../Img/1.jpg'
+import img1 from '../Img/15.jpg'
 import img2 from '../Img/2.jpg'
 import img3 from '../Img/3.jpg'
 import img4 from '../Img/4.jpg'
@@ -16,9 +16,9 @@ import img11 from '../Img/11.jpg'
 import img12 from '../Img/12.jpg'
 import img13 from '../Img/13.jpg'
 import img14 from '../Img/14.jpg'
-import img15 from '../Img/15.jpg'
+import img15 from '../Img/1.jpg'
 
-import img1S from '../Img/1S.jpg'
+import img1S from '../Img/15S.jpg'
 import img2S from '../Img/2S.jpg'
 import img3S from '../Img/3S.jpg'
 import img4S from '../Img/4S.jpg'
@@ -32,7 +32,7 @@ import img11S from '../Img/11S.jpg'
 import img12S from '../Img/12S.jpg'
 import img13S from '../Img/13S.jpg'
 import img14S from '../Img/14S.jpg'
-import img15S from '../Img/15S.jpg'
+import img15S from '../Img/1S.jpg'
 
 const imgSet = [
     { id: 0, path: img1, pathS: img1S, },

@@ -22,7 +22,7 @@ function Contact() {
                     <p>NIP: 549 238 05 76</p>
                 </div>
                 <div className="Contact__part bold">
-                    <p>Zaufaj nam - stwórzmy wyjątkowy dzień bezpieczeństwa w twojej firmie!</p>
+                    <p>Zaufaj nam - stworzymy wyjątkowy dzień bezpieczeństwa w twojej firmie!</p>
                 </div>
             </div>
             <div className="Contact__img">
