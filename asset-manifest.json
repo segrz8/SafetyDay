@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SafetyDay/static/css/main.4c6587e1.chunk.css",
-    "main.js": "/SafetyDay/static/js/main.1dbe6865.chunk.js",
-    "main.js.map": "/SafetyDay/static/js/main.1dbe6865.chunk.js.map",
+    "main.css": "/SafetyDay/static/css/main.547ac872.chunk.css",
+    "main.js": "/SafetyDay/static/js/main.58ce9537.chunk.js",
+    "main.js.map": "/SafetyDay/static/js/main.58ce9537.chunk.js.map",
     "runtime-main.js": "/SafetyDay/static/js/runtime-main.74003e53.js",
     "runtime-main.js.map": "/SafetyDay/static/js/runtime-main.74003e53.js.map",
     "static/js/2.4537f736.chunk.js": "/SafetyDay/static/js/2.4537f736.chunk.js",
     "static/js/2.4537f736.chunk.js.map": "/SafetyDay/static/js/2.4537f736.chunk.js.map",
     "index.html": "/SafetyDay/index.html",
-    "precache-manifest.2d48c4c7b9a80d991e8b056f64cb0eb8.js": "/SafetyDay/precache-manifest.2d48c4c7b9a80d991e8b056f64cb0eb8.js",
+    "precache-manifest.76693523afd6ad5b9e40512c0e40d430.js": "/SafetyDay/precache-manifest.76693523afd6ad5b9e40512c0e40d430.js",
     "service-worker.js": "/SafetyDay/service-worker.js",
-    "static/css/main.4c6587e1.chunk.css.map": "/SafetyDay/static/css/main.4c6587e1.chunk.css.map",
+    "static/css/main.547ac872.chunk.css.map": "/SafetyDay/static/css/main.547ac872.chunk.css.map",
     "static/js/2.4537f736.chunk.js.LICENSE.txt": "/SafetyDay/static/js/2.4537f736.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/SafetyDay/static/media/1.efe5d3fc.jpg",
     "static/media/10.jpg": "/SafetyDay/static/media/10.6522517f.jpg",
@@ -48,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.74003e53.js",
     "static/js/2.4537f736.chunk.js",
-    "static/css/main.4c6587e1.chunk.css",
-    "static/js/main.1dbe6865.chunk.js"
+    "static/css/main.547ac872.chunk.css",
+    "static/js/main.58ce9537.chunk.js"
   ]
 }

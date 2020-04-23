@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07b85e6545985276b4cd064569739e07",
+    "revision": "bf0260f448024737706649d499294b3d",
     "url": "/SafetyDay/index.html"
   },
   {
-    "revision": "659c576f2f324c2e6360",
-    "url": "/SafetyDay/static/css/main.4c6587e1.chunk.css"
+    "revision": "bbd7a3f09f9245d0c424",
+    "url": "/SafetyDay/static/css/main.547ac872.chunk.css"
   },
   {
     "revision": "8138c0183375d6a30352",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SafetyDay/static/js/2.4537f736.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "659c576f2f324c2e6360",
-    "url": "/SafetyDay/static/js/main.1dbe6865.chunk.js"
+    "revision": "bbd7a3f09f9245d0c424",
+    "url": "/SafetyDay/static/js/main.58ce9537.chunk.js"
   },
   {
     "revision": "86a3a161e0cbd890f539",
