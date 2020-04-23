@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SafetyDay/static/css/main.2be0a651.chunk.css",
+    "main.css": "/SafetyDay/static/css/main.4c6587e1.chunk.css",
     "main.js": "/SafetyDay/static/js/main.1dbe6865.chunk.js",
     "main.js.map": "/SafetyDay/static/js/main.1dbe6865.chunk.js.map",
     "runtime-main.js": "/SafetyDay/static/js/runtime-main.74003e53.js",
@@ -8,9 +8,9 @@
     "static/js/2.4537f736.chunk.js": "/SafetyDay/static/js/2.4537f736.chunk.js",
     "static/js/2.4537f736.chunk.js.map": "/SafetyDay/static/js/2.4537f736.chunk.js.map",
     "index.html": "/SafetyDay/index.html",
-    "precache-manifest.7d12093e56ecfd7a578aa1f23903ee31.js": "/SafetyDay/precache-manifest.7d12093e56ecfd7a578aa1f23903ee31.js",
+    "precache-manifest.2d48c4c7b9a80d991e8b056f64cb0eb8.js": "/SafetyDay/precache-manifest.2d48c4c7b9a80d991e8b056f64cb0eb8.js",
     "service-worker.js": "/SafetyDay/service-worker.js",
-    "static/css/main.2be0a651.chunk.css.map": "/SafetyDay/static/css/main.2be0a651.chunk.css.map",
+    "static/css/main.4c6587e1.chunk.css.map": "/SafetyDay/static/css/main.4c6587e1.chunk.css.map",
     "static/js/2.4537f736.chunk.js.LICENSE.txt": "/SafetyDay/static/js/2.4537f736.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/SafetyDay/static/media/1.efe5d3fc.jpg",
     "static/media/10.jpg": "/SafetyDay/static/media/10.6522517f.jpg",
@@ -48,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.74003e53.js",
     "static/js/2.4537f736.chunk.js",
-    "static/css/main.2be0a651.chunk.css",
+    "static/css/main.4c6587e1.chunk.css",
     "static/js/main.1dbe6865.chunk.js"
   ]
 }

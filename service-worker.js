@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SafetyDay/precache-manifest.7d12093e56ecfd7a578aa1f23903ee31.js"
+  "/SafetyDay/precache-manifest.2d48c4c7b9a80d991e8b056f64cb0eb8.js"
 );
 
 self.addEventListener('message', (event) => {
